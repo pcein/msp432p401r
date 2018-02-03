@@ -1,0 +1,24 @@
+[package]
+name = "msp432p401r"
+version = "0.1.0"
+authors = ["Pramode <mail@pramode.in>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Peripheral access API for TI MSP432P401R and MSP432P401M microcontrollers auto-generated using svd2rust version 0.12.0"
+documentation = "https://docs.rs/msp432p401r"
+keywords = ["arm", "cortex-m", "msp432", "svd2rust"]
+license = "MIT"
+repository = "https://github.com/msp432p401r"
+
+[dependencies]
+bare-metal = "0.1.1"
+cortex-m = "0.4.3"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.12"
+
+[features]
+rt = ["cortex-m-rt"]
+
+
