@@ -8,6 +8,7 @@ documentation = "https://docs.rs/msp432p401r"
 keywords = ["arm", "cortex-m", "msp432", "svd2rust"]
 license = "MIT"
 repository = "https://github.com/msp432p401r"
+exclude = ["svd/*"]
 
 [dependencies]
 bare-metal = "0.1.1"
