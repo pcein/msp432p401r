@@ -1,6 +1,6 @@
 [package]
 name = "msp432p401r"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Pramode <mail@pramode.in>"]
 categories = ["embedded", "hardware-support", "no-std"]
 description = "Peripheral access API for TI MSP432P401R and MSP432P401M microcontrollers generated using svd2rust"
