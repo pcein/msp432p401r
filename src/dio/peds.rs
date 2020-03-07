@@ -2,14 +2,6 @@
 pub type R = crate::R<u16, super::PEDS>;
 #[doc = "Writer for register PEDS"]
 pub type W = crate::W<u16, super::PEDS>;
-#[doc = "Register PEDS `reset()`'s with value 0"]
-impl crate::ResetValue for super::PEDS {
-    type Type = u16;
-    #[inline(always)]
-    fn reset_value() -> Self::Type {
-        0
-    }
-}
 #[doc = "Reader of field `P9DS`"]
 pub type P9DS_R = crate::R<u8, u8>;
 #[doc = "Write proxy for field `P9DS`"]

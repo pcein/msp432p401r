@@ -197,7 +197,7 @@ impl crate::Readable for PAREN {}
 impl crate::Writable for PAREN {}
 #[doc = "Port A Resistor Enable"]
 pub mod paren;
-#[doc = "Port A Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pads](pads) module"]
+#[doc = "Port A Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pads](pads) module"]
 pub type PADS = crate::Reg<u16, _PADS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -334,7 +334,7 @@ impl crate::Readable for PBREN {}
 impl crate::Writable for PBREN {}
 #[doc = "Port B Resistor Enable"]
 pub mod pbren;
-#[doc = "Port B Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pbds](pbds) module"]
+#[doc = "Port B Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pbds](pbds) module"]
 pub type PBDS = crate::Reg<u16, _PBDS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -471,7 +471,7 @@ impl crate::Readable for PCREN {}
 impl crate::Writable for PCREN {}
 #[doc = "Port C Resistor Enable"]
 pub mod pcren;
-#[doc = "Port C Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pcds](pcds) module"]
+#[doc = "Port C Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pcds](pcds) module"]
 pub type PCDS = crate::Reg<u16, _PCDS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -608,7 +608,7 @@ impl crate::Readable for PDREN {}
 impl crate::Writable for PDREN {}
 #[doc = "Port D Resistor Enable"]
 pub mod pdren;
-#[doc = "Port D Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pdds](pdds) module"]
+#[doc = "Port D Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pdds](pdds) module"]
 pub type PDDS = crate::Reg<u16, _PDDS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -745,7 +745,7 @@ impl crate::Readable for PEREN {}
 impl crate::Writable for PEREN {}
 #[doc = "Port E Resistor Enable"]
 pub mod peren;
-#[doc = "Port E Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [peds](peds) module"]
+#[doc = "Port E Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [peds](peds) module"]
 pub type PEDS = crate::Reg<u16, _PEDS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -882,7 +882,7 @@ impl crate::Readable for PJREN {}
 impl crate::Writable for PJREN {}
 #[doc = "Port J Resistor Enable"]
 pub mod pjren;
-#[doc = "Port J Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pjds](pjds) module"]
+#[doc = "Port J Drive Strength\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pjds](pjds) module"]
 pub type PJDS = crate::Reg<u16, _PJDS>;
 #[allow(missing_docs)]
 #[doc(hidden)]

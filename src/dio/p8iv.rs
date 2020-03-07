@@ -1,6 +1,6 @@
 #[doc = "Reader of register P8IV"]
 pub type R = crate::R<u16, super::P8IV>;
-#[doc = "Port 8 interrupt vector value\n\nValue on reset: 0"]
+#[doc = "Port 8 interrupt vector value"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 #[repr(u8)]
 pub enum P8IV_A {

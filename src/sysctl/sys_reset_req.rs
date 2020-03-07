@@ -2,14 +2,6 @@
 pub type R = crate::R<u32, super::SYS_RESET_REQ>;
 #[doc = "Writer for register SYS_RESET_REQ"]
 pub type W = crate::W<u32, super::SYS_RESET_REQ>;
-#[doc = "Register SYS_RESET_REQ `reset()`'s with value 0"]
-impl crate::ResetValue for super::SYS_RESET_REQ {
-    type Type = u32;
-    #[inline(always)]
-    fn reset_value() -> Self::Type {
-        0
-    }
-}
 #[doc = "Write proxy for field `POR`"]
 pub struct POR_W<'a> {
     w: &'a mut W,

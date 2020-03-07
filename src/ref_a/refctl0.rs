@@ -2,15 +2,7 @@
 pub type R = crate::R<u16, super::REFCTL0>;
 #[doc = "Writer for register REFCTL0"]
 pub type W = crate::W<u16, super::REFCTL0>;
-#[doc = "Register REFCTL0 `reset()`'s with value 0"]
-impl crate::ResetValue for super::REFCTL0 {
-    type Type = u16;
-    #[inline(always)]
-    fn reset_value() -> Self::Type {
-        0
-    }
-}
-#[doc = "Reference enable\n\nValue on reset: 0"]
+#[doc = "Reference enable"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFON_A {
     #[doc = "0: Disables reference if no other reference requests are pending"]
@@ -85,7 +77,7 @@ impl<'a> REFON_W<'a> {
         self.w
     }
 }
-#[doc = "Reference output buffer\n\nValue on reset: 0"]
+#[doc = "Reference output buffer"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFOUT_A {
     #[doc = "0: Reference output not available externally"]
@@ -160,7 +152,7 @@ impl<'a> REFOUT_W<'a> {
         self.w
     }
 }
-#[doc = "Temperature sensor disabled\n\nValue on reset: 0"]
+#[doc = "Temperature sensor disabled"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFTCOFF_A {
     #[doc = "0: Temperature sensor enabled"]
@@ -235,7 +227,7 @@ impl<'a> REFTCOFF_W<'a> {
         self.w
     }
 }
-#[doc = "Reference voltage level select\n\nValue on reset: 0"]
+#[doc = "Reference voltage level select"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 #[repr(u8)]
 pub enum REFVSEL_A {
@@ -314,7 +306,7 @@ impl<'a> REFVSEL_W<'a> {
         self.w
     }
 }
-#[doc = "Reference generator one-time trigger\n\nValue on reset: 0"]
+#[doc = "Reference generator one-time trigger"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFGENOT_A {
     #[doc = "0: No trigger"]
@@ -389,7 +381,7 @@ impl<'a> REFGENOT_W<'a> {
         self.w
     }
 }
-#[doc = "Bandgap and bandgap buffer one-time trigger\n\nValue on reset: 0"]
+#[doc = "Bandgap and bandgap buffer one-time trigger"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFBGOT_A {
     #[doc = "0: No trigger"]
@@ -464,7 +456,7 @@ impl<'a> REFBGOT_W<'a> {
         self.w
     }
 }
-#[doc = "Reference generator active\n\nValue on reset: 0"]
+#[doc = "Reference generator active"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFGENACT_A {
     #[doc = "0: Reference generator not active"]
@@ -500,7 +492,7 @@ impl REFGENACT_R {
         *self == REFGENACT_A::REFGENACT_1
     }
 }
-#[doc = "Reference bandgap active\n\nValue on reset: 0"]
+#[doc = "Reference bandgap active"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFBGACT_A {
     #[doc = "0: Reference bandgap buffer not active"]
@@ -536,7 +528,7 @@ impl REFBGACT_R {
         *self == REFBGACT_A::REFBGACT_1
     }
 }
-#[doc = "Reference generator busy\n\nValue on reset: 0"]
+#[doc = "Reference generator busy"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFGENBUSY_A {
     #[doc = "0: Reference generator not busy"]
@@ -572,7 +564,7 @@ impl REFGENBUSY_R {
         *self == REFGENBUSY_A::REFGENBUSY_1
     }
 }
-#[doc = "Bandgap mode\n\nValue on reset: 0"]
+#[doc = "Bandgap mode"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum BGMODE_A {
     #[doc = "0: Static mode"]
@@ -608,7 +600,7 @@ impl BGMODE_R {
         *self == BGMODE_A::BGMODE_1
     }
 }
-#[doc = "Variable reference voltage ready status\n\nValue on reset: 0"]
+#[doc = "Variable reference voltage ready status"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFGENRDY_A {
     #[doc = "0: Reference voltage output is not ready to be used"]
@@ -644,7 +636,7 @@ impl REFGENRDY_R {
         *self == REFGENRDY_A::REFGENRDY_1
     }
 }
-#[doc = "Buffered bandgap voltage ready status\n\nValue on reset: 0"]
+#[doc = "Buffered bandgap voltage ready status"]
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum REFBGRDY_A {
     #[doc = "0: Buffered bandgap voltage is not ready to be used"]

@@ -178,7 +178,7 @@ impl crate::Readable for SYS_BOOTOVER_ACK {}
 impl crate::Writable for SYS_BOOTOVER_ACK {}
 #[doc = "Boot Override Acknowledge Register"]
 pub mod sys_bootover_ack;
-#[doc = "Reset Request Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sys_reset_req](sys_reset_req) module"]
+#[doc = "Reset Request Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sys_reset_req](sys_reset_req) module"]
 pub type SYS_RESET_REQ = crate::Reg<u32, _SYS_RESET_REQ>;
 #[allow(missing_docs)]
 #[doc(hidden)]
