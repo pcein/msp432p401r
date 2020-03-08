@@ -4,11 +4,11 @@
    <vendor>Texas Instruments</vendor>
    <vendorID>ti.com</vendorID>
    <name>MSP432P401R</name>
-   <version>3.220</version>
+   <version>3.230</version>
    <description>ARM Cortex-M4 MSP432P4xx Device</description>
    <licenseText>
 \n
-    Copyright (C) 2012-2017 Texas Instruments Incorporated - http://www.ti.com/\n
+    Copyright (C) 2012-2018 Texas Instruments Incorporated - http://www.ti.com/\n
 \n
     Redistribution and use in source and binary forms, with or without\n
     modification, are permitted provided that the following conditions\n
@@ -45,8 +45,6 @@
    <!-- -->
    <!-- Register Default Properties -->
    <size>32</size>
-   <resetValue>0x00000000</resetValue>
-   <resetMask>0xffffffff</resetMask>
    <!-- -->
    <peripherals>
     <peripheral>
